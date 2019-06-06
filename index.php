@@ -16,7 +16,7 @@
 	<a href=".php">Registration</a>
     <a href=".php">Calender</a>
     <a href="sponsors.php">Sponsors</a>
-	<a href=".php">FAQ</a>
+	<a href="FAQ.php">FAQ</a>
 	<a href=".php">Concussion information</a>
 	<a href=".php">Equipment</a>
 	<a href=".php">Soccer Camp</a>

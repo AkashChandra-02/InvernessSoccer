@@ -1,51 +1,37 @@
-<h1 style="text-align: center;">Executive Board</h1><br>
-
-PRESIDENT 
+President 
 Mark Vilardo
-<a href="mailto:president@invernesssoccer.com">president@invernesssoccer.com</a><br><br>
-
-CO-PRESIDENT
-open
-<a href="mailto:co-president@invernesssoccer.com">co-president@invernesssoccer.com</a><br><br>
-
-TREASURER
+president@invernesssoccer.com
+Co-President
+OPEN
+co-president@invernesssoccer.com
+Treasurer
 Julie Vogt
-<a href="mailto:treasurer@invernesssoccer.com">treasurer@invernesssoccer.com</a><br><br>
-
+treasurer@invernesssoccer.com
 Secretary
 Liz Bauske
-<a href="mailto:secretary@invernesssoccer.com">secretary@invernesssoccer.com</a><br><br>
-
+secretary@invernesssoccer.com
 <h1 style="text-align: center;">Commissioners</h1>
-
 PreK-Kindergarten
-Open
-<a href="mailto:k-commissioner@invernesssoccer.com">k-commissioner@invernesssoccer.com</a><br><br>
-
+OPEN
+k-commissioner@invernesssoccer.com
 1st Grade
 Jamie Schnell
-<a href="mailto:1grd-commissioner@invernesssoccer.com">1grd-commissioner@invernesssoccer.com</a><br><br>
-
+1grd-commissioner@invernesssoccer.com
 2nd & 3rd Grade	
 Liz Bauske
-<a href="mailto:2-3grd-commissioner@invernesssoccer.com">2-3grd-commissioner@invernesssoccer.com</a><br><br>
-
+2-3grd-commissioner@invernesssoccer.com
 4th & 5th Grade	
 Mark Vilardo
-<a href="mailto:4-5grd-commissioner@invernesssoccer.com">4-5grd-commissioner@invernesssoccer.com</a><br><br>
-
+4-5grd-commissioner@invernesssoccer.com
 6th, 7th & 8th Grade	
 Rick Zanardo
-<a href="mailto:678grd-commissioner@invernesssoccer.com">678grd-commissioner@invernesssoccer.com</a><br><br>
-
+678grd-commissioner@invernesssoccer.com
 Uniforms
-Open
-<a href="mailto:uniforms@invernesssoccer.com">uniforms@invernesssoccer.com</a><br><br>
-
+OPEN
+uniforms@invernesssoccer.com
 Sponsors
 OPEN
-<a href="mailto:sponsors@invernesssoccer.com">sponsors@invernesssoccer.com</a><br><br>
-
+sponsors@invernesssoccer.com
 Fields, Equipment & Referees
 Tony Baranciukas
-<a href="mailto:refs@invernesssoccer.com">refs@invernesssoccer.com</a><br><br>
+refs@invernesssoccer.com

@@ -15,7 +15,7 @@
 	<a href=".php">Registration</a>
     <a href=".php">Calender</a>
     <a href="sponsors.php">Sponsors</a>
-	<a href=".php">FAQ</a>
+	<a href="FAQ.php">FAQ</a>
 	<a href=".php">Concussion information</a>
 	<a href=".php">Equipment</a>
 	<a href=".php">Soccer Camp</a>
@@ -33,7 +33,7 @@ while(!feof($myfile)) {
 	}
 	
 	else if(stripos($line,".jpg") != 0 || stripos($line,".png") != 0 || stripos($line,".gif") != 0 || stripos($line,".jpeg") != 0){
-		$out = '<br><img src="' . $line . '" height="200" width="250"><br>';
+		$out = '<br><img src="' . $line . '" style="width:250px;height:200px;"><br>';
 		echo $out;
 	}
 	

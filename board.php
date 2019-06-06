@@ -15,18 +15,27 @@
 	<a href=".php">Registration</a>
     <a href=".php">Calender</a>
     <a href="sponsors.php">Sponsors</a>
-	<a href=".php">FAQ</a>
+	<a href="FAQ.php">FAQ</a>
 	<a href=".php">Concussion information</a>
 	<a href=".php">Equipment</a>
 	<a href=".php">Soccer Camp</a>
 </div>
 
 <div class="content">
+<h1 style="text-align: center;">Executive Board</h1>
 <?php
 $myfile = fopen("txt/board.txt", "r") or die("Unable to open file!");
 // Output one character until end-of-file
 while(!feof($myfile)) {
-  echo fgetc($myfile);
+	$line =  fgets($myfile);
+	//https://www.php.net/manual/en/function.stripos.php
+	if(strpos($line,"@") != 0){
+		$out = '<a href=mailto:'. $line.'>'.$line."</a><br><br>";
+		echo $out;
+	}
+	else{
+		echo $line;
+	}
 }
 fclose($myfile);
 ?>
