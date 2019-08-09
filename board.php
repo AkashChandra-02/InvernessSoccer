@@ -12,11 +12,11 @@
 
 <div class="topnav">
 	<a href="index.php">Home</a>
-	<a href=".php">Registration</a>
+	<a href="registration.php">Registration</a>
     <a href=".php">Calender</a>
     <a href="sponsors.php">Sponsors</a>
 	<a href="FAQ.php">FAQ</a>
-	<a href=".php">Concussion information</a>
+	<a href="https://www.cdc.gov/concussion/HeadsUp/Training/index.html">Concussion information</a>
 	<a href=".php">Equipment</a>
 	<a href=".php">Soccer Camp</a>
 </div>

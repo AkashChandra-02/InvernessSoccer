@@ -16,7 +16,7 @@
     <a href=".php">Calender</a>
     <a href="sponsors.php">Sponsors</a>
 	<a href="FAQ.php">FAQ</a>
-	<a href=".php">Concussion information</a>
+	<a href="https://www.cdc.gov/concussion/HeadsUp/Training/index.html">Concussion information</a>
 	<a href=".php">Equipment</a>
 	<a href=".php">Soccer Camp</a>
 	<button onclick="changeDiv()">Click Here To Become a Sponsor</button>

@@ -24,28 +24,22 @@
 
 <div class="content">
 	<h1>Welcome to Inverness Soccer Club</h1>
-	<h2>Updates!</h2>
+	
 <?php
-
-$myfile = fopen("txt/updates.txt", "r") or die("<h3>There are no updates!</h3>");
-
-$line =  fgets($myfile);
-$out = '<div class="grid-container"><div class="top"><b>'. $line.'</b></div><div class="middle">';
-echo $out;
+$myfile = fopen("txt/registration.txt", "r") or die("Unable to open file!");
 
 while(!feof($myfile)) {
 	$line =  fgets($myfile);
-	//https://www.php.net/manual/en/function.stripos.php
-	if(stripos($line,"date") != 0)
+	if(stripos($line,".com") != 0 || stripos($line,".org") != 0 || stripos($line,".net") != 0 || stripos($line,".php") != 0)
 	{
-		$out = '</div></div><br><br><div class="grid-container"><div class="top"><b>'. $line.'</b></div><div class="middle">';
+		$out = '<a href='. $line.'>Link For Registration</a>';
 		echo $out;
 	}
-	else{
-		echo $line;
+	else
+	{
+		echo $line.'<br><br>';
 	}
 }
-echo '</div></div>';
 fclose($myfile);
 ?>
 	
