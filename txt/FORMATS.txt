@@ -1,7 +1,14 @@
 Sponsors: 
-a link to logo
+a link to logo or if logo is downloaded, where it is in the file system
 company name
 Name Of Sponsor
 Email
 phone number
-Location(s)
+
+Updates:
+Date: xxx/xxx/xxxx
+Body
+
+The program picks up "Date:" as the start of a new update, so always include that.
+The body can be formatted with html tags. such as <b></b> for bold text.
+
