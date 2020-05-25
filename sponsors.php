@@ -49,7 +49,7 @@
     </header>
 <!--Body-->
 <div role="main" class="container">
-<h1>Welcome to the Inverness Soccer Club Sponsors</h1>
+<h1 style="color: #336600;">Inverness Soccer Club Sponsors</h1>
 <?php
 $myfile = fopen("txt/sponsors.txt", "r") or die("Unable to open file!");
 while(!feof($myfile)) {
