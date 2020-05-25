@@ -6,11 +6,19 @@ h4
 {
 	color: #336600;
 }
+
+hr
+{
+        height: 5px;
+        background-color: #336600;
+        border: none;
+}
+
 </style>
 <link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon" />
 <link rel="ICON" href="favicon.ico" type="image/ico" />
 
-<title>Inverness Soccer Club</title>
+<title>Welcome to Inverness Soccer Club!</title>
 
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/sticky-footer-navbar.css">
@@ -57,16 +65,15 @@ h4
     </header>
 <!--Body-->
 <div role="main" class="container">
-	<h1>Welcome to Inverness Soccer Club!</h1>
-	<h2>Updates:</h2>
+	<h2>Inverness Soccer Club Updates:</h2>
 <?php
 
-$start = '<h4>';
+$start = '<hr><br><h4>';
 $end = '</h4>';
 $myfile = fopen("txt/updates.txt", "r") or die("<h3>There are no updates! Please contact the commissioner for help</h3>");
 
 $line =  fgets($myfile);
-$out = $start.$line.$end;
+$out = '<h4>'.$line.$end;
 echo $out;
 
 while(!feof($myfile)) {
@@ -80,7 +87,7 @@ while(!feof($myfile)) {
 		echo $line;
 	}
 }
-echo '</div></div>';
+echo '<hr></div></div>';
 fclose($myfile);
 ?>
 	
