@@ -7,4 +7,4 @@ It needed to be easy to update, without modifying any html, so I used php to rea
 I worked on and off of the website during the school year, and during the 2020 COVID-19 quarantine, I was able to finish it some more. 
 As of 5/6/2020, it is not finished. 
 
-The two zip folders are prevois versions of the website. These were created as a backup incase my computer died.
+The two zip folders are previous versions of the website. These were created as a backup incase my computer died.
