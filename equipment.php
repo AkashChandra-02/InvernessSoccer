@@ -4,7 +4,7 @@
 <link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon" />
 <link rel="ICON" href="favicon.ico" type="image/ico" />
 
-<title>Inverness Soccer Club Calender</title>
+<title>ISC Equipment</title>
 
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/sticky-footer-navbar.css">
@@ -46,13 +46,41 @@
 				</div>
 		</div>
 		</nav>
+		
     </header>
 <!--Body-->
 <div role="main" class="container">
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz" +
-"=America%2FChicago&amp;src=cTFtaHNxdGliMXFqbGwzZjgwa2tqbWE3ZzhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23EF6C00&amp;showTitle=1&amp;" +
-"showNav=1&amp;showDate=1&amp;showPrint=1&amp;showTabs=1&amp;showCalendars=1&amp;showTz=1" 
-style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+	<h4>Players should have:</h4>
+	<ol>
+
+	<li>Outdoor Shoes or soccer cleats</li>
+	<li>Shinguards</li>
+	<li>Water Bottle - labeled</li>
+	<li>Practice Ball - labeled with name</li>
+
+	<ul>
+	<li>Kindergarten & First Grade: Size 3</li>
+	<li>Grades 2-5: Size 4</li>
+	<li>Grades 6+: Size 5</li>
+	</ul>
+
+	<li>Soccer shorts (coach will designate team color)</li>
+
+	</ol>
+
+	<h4>Players should <b>not</b> have:</h4>
+	<ul>
+	<li>baseball shoes (toe cleat)</li>
+	<li>jewelry</li>
+	<li>hard hair fasteners or caps</li>
+	<li>untied long hair</li>
+	</ul>
+	<h4>Players will be provided with</h4>
+	<ol>
+	<li>Team Jersey</li>
+	<li>Team Socks</li>
+</ol>
 </div>
 </body>
 </html>

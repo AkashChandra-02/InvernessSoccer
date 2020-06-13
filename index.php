@@ -1,20 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-h4
-{
-	color: #336600;
-}
-
-hr
-{
-        height: 5px;
-        background-color: #336600;
-        border: none;
-}
-
-</style>
 <link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon" />
 <link rel="ICON" href="favicon.ico" type="image/ico" />
 
@@ -37,8 +23,8 @@ hr
 		<a href="registration.php">Registration</a>
 		<a href="calender.php">Calender</a>	
 		<a href="FAQ.php">FAQ</a>
-		<a href=".php">Equipment</a>
-		<a href=".php">Soccer Camp</a>	
+		<a href="equipment.php">Equipment</a>
+		<a href="SoccerCamp.php">Soccer Camp</a>	
 		<a href="https://www.cdc.gov/headsup/youthsports/training/index.html">Concussion information</a>
 		
 		<!--Coaches & Volunteers dropdown-->

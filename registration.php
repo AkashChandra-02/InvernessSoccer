@@ -23,8 +23,8 @@
 		<a href="registration.php">Registration</a>
 		<a href="calender.php">Calender</a>	
 		<a href="FAQ.php">FAQ</a>
-		<a href=".php">Equipment</a>
-		<a href=".php">Soccer Camp</a>	
+		<a href="equipment.php">Equipment</a>
+		<a href="SoccerCamp.php">Soccer Camp</a>	
 		<a href="https://www.cdc.gov/headsup/youthsports/training/index.html">Concussion information</a>
 		
 		<!--Coaches & Volunteers dropdown-->

@@ -1,9 +1,11 @@
 Sponsors: 
-a link to logo or if logo is downloaded, where it is in the file system
+a link to logo or if logo is downloaded, its location in the file system. 
 company name
 Name Of Sponsor
 Email
 phone number
+
+Image must be  a .jpg or .png or .gif or .jpeg
 
 Updates:
 Date: xxx/xxx/xxxx

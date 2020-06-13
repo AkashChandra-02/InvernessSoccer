@@ -102,3 +102,18 @@ code {
 }
 
 */
+
+
+h1, h2, h4, h3, p, a
+{
+	color: #336600;
+	/*padding-left: 15px;
+    padding-right: 15px;*/
+}
+
+hr
+{
+        height: 6px;
+        background-color: #336600;
+        border: none;
+}
