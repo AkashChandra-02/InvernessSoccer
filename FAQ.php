@@ -31,8 +31,8 @@
 		<div class="dropdown">
 			<button class="dropbtn">Coaches & Volunteers</button>
 				<div class="dropdown-content">
-					<a href=".php">Coaches Page</a>
-					<a href=".php">Volunteer Info</a>
+					<a href="CoachesPage.php">Coaches Page</a>
+					<a href="VolunteerInfo.php">Volunteer Info</a>
 				</div>
 		</div>
 		

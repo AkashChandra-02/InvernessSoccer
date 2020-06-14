@@ -4,7 +4,7 @@
 <link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon" />
 <link rel="ICON" href="favicon.ico" type="image/ico" />
 
-<title>Welcome to Inverness Soccer Club!</title>
+<title>ISC Coaches Page</title>
 
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/sticky-footer-navbar.css">
@@ -45,18 +45,17 @@
 					<a href="sponsors.php">ISC Sponsors</a>
 				</div>
 		</div>
-		<a style = "position: absolute;right:0;" href="https://www.facebook.com/InvernessSoccerClub/">Visit Us On Facebook</a>
 		</nav>
-		
     </header>
 <!--Body-->
 <div role="main" class="container">
-	<h2>Inverness Soccer Club Updates:</h2>
+<h1></h1>
+<h2>Updates for Coaches:</h2>
 <?php
-
 $start = '<hr><br><h4>';
 $end = '</h4>';
-$myfile = fopen("txt/updates.txt", "r") or die("<h3>There are no updates! Please contact the commissioner for help</h3>");
+
+$myfile = fopen("txt/UpdatesforCoaches.txt", "r") or die("Unable to open file!");
 
 $line =  fgets($myfile);
 $out = '<h4>'.$line.$end;
@@ -73,10 +72,16 @@ while(!feof($myfile)) {
 		echo $line;
 	}
 }
-echo '<hr></div></div>';
+echo '<hr>';
 fclose($myfile);
 ?>
-	
+<br><br>
+<h2>Safety Inspection Sheets</h2>
+
+<a href="/forms/Goal_Inspection_Form_Final2012.xls">Goal Inspection Form</a> - Before each practice and game, coaches must inspect the goal to make sure they are intact.  Complete form and turn in at the end of the season.
+
+<a href="/forms/TheABCofInvernessSoccer2015w_o_code.doc.pdf">The ABC's of Inverness Soccer</a> - The document contains information regarding the number of players on the field, good sportsmanship, rainouts, safety rules, goal set up and tear down.
+</div>
 </div>
 </body>
 </html>

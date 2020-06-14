@@ -4,7 +4,7 @@
 <link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon" />
 <link rel="ICON" href="favicon.ico" type="image/ico" />
 
-<title>Welcome to Inverness Soccer Club!</title>
+<title>ISC Volunteer Info</title>
 
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/sticky-footer-navbar.css">
@@ -45,38 +45,29 @@
 					<a href="sponsors.php">ISC Sponsors</a>
 				</div>
 		</div>
-		<a style = "position: absolute;right:0;" href="https://www.facebook.com/InvernessSoccerClub/">Visit Us On Facebook</a>
 		</nav>
-		
     </header>
 <!--Body-->
 <div role="main" class="container">
-	<h2>Inverness Soccer Club Updates:</h2>
+	
 <?php
-
-$start = '<hr><br><h4>';
-$end = '</h4>';
-$myfile = fopen("txt/updates.txt", "r") or die("<h3>There are no updates! Please contact the commissioner for help</h3>");
-
-$line =  fgets($myfile);
-$out = '<h4>'.$line.$end;
-echo $out;
+$myfile = fopen("txt/registration.txt", "r") or die("Unable to open file!");
 
 while(!feof($myfile)) {
 	$line =  fgets($myfile);
-	if(stripos($line,"date:") !== false)
+	if(stripos($line,".com") != 0 || stripos($line,".org") != 0 || stripos($line,".net") != 0 || stripos($line,".php") != 0)
 	{
-		$out = $start.$line.$end;
+		$out = '<a href='. $line.'>Link For Registration</a>';
 		echo $out;
 	}
-	else{
-		echo $line;
+	else
+	{
+		echo $line.'<br><br>';
 	}
 }
-echo '<hr></div></div>';
 fclose($myfile);
 ?>
-	
+
 </div>
 </body>
 </html>

@@ -4,7 +4,7 @@
 <link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon" />
 <link rel="ICON" href="favicon.ico" type="image/ico" />
 
-<title>Inverness Soccer Club Calender</title>
+<title>ISC Calender</title>
 
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/sticky-footer-navbar.css">
@@ -31,8 +31,8 @@
 		<div class="dropdown">
 			<button class="dropbtn">Coaches & Volunteers</button>
 				<div class="dropdown-content">
-					<a href=".php">Coaches Page</a>
-					<a href=".php">Volunteer Info</a>
+					<a href="CoachesPage.php">Coaches Page</a>
+					<a href="VolunteerInfo.php">Volunteer Info</a>
 				</div>
 		</div>
 		
