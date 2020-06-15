@@ -57,7 +57,7 @@ while(!feof($myfile)) {
 	$line =  fgets($myfile);
 	//https://www.php.net/manual/en/function.stripos.php
 	if(strpos($line,"@") != 0){
-		$out = '<a href=mailto:'. $line.'>'.$line."</a><br><br>";
+		$out = ' email: <a href=mailto:'. $line.'>'.$line."</a><br><br>";
 		echo $out;
 	}
 	else{
