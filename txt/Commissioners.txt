@@ -21,7 +21,7 @@ OPEN
 sponsors@invernesssoccer.com
 Webmaster
 OPEN
-webmaster@invernesssoccer.com
+admin@invernesssoccer.com
 Fields, Equipment & Referees
 Tony Baranciukas
 refs@invernesssoccer.com

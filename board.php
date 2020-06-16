@@ -51,24 +51,28 @@
 <div role="main" class="container">
 <h1>Executive Board</h1>
 <?php
+
+function isBlank($string) {
+  return $string == "" || $string == " ";
+}
+
 $myfile = fopen("txt/ExecutiveBoard.txt", "r") or die("Unable to open file!");
 
 while(!feof($myfile)) {
+	$position =  "";
+	$name =  "";
+	$email =  "";
+	
 	$position =  fgets($myfile);
-	
-	if(!feof($myfile))
-	{
-		$name =  fgets($myfile);
-	}
-	
-	if(!feof($myfile))
-	{
-		$email =  fgets($myfile);
-	}
-	
+	$name =  fgets($myfile);
+	$email =  fgets($myfile);
+		
 	$out = '<div class="container"><div class="row"><div class="col">'.$position.'</div><div class="col">'.$name.'</div><div class="col"><a href=mailto:'.$email.'>'.$email.'</a></div></div></div><hr>';
 	
-	echo $out;
+	if(!(isBlank($position)) && !(isBlank($name)) && !(isBlank($email)))
+	{
+		echo $out;	
+	}
 }
 fclose($myfile);
 ?>
@@ -78,21 +82,20 @@ fclose($myfile);
 $myfile = fopen("txt/Commissioners.txt", "r") or die("Unable to open file!");
 
 while(!feof($myfile)) {
+	$position =  "";
+	$name =  "";
+	$email =  "";
+	
 	$position =  fgets($myfile);
+	$name =  fgets($myfile);
+	$email =  fgets($myfile);
+		
+	$out = '<div class="container"><div class="row"><div class="col">'.$position.'</div><div class="col">'.$name.'</div><div class="col"><a href=mailto:'.$email.'>'.$email.'</a></div></div></div><hr>';	
 	
-	if(!feof($myfile))
+	if(!(isBlank($position)) && !(isBlank($name)) && !(isBlank($email)))
 	{
-		$name =  fgets($myfile);
+		echo $out;	
 	}
-	
-	if(!feof($myfile))
-	{
-		$email =  fgets($myfile);
-	}
-	
-	$out = '<div class="container"><div class="row"><div class="col">'.$position.'</div><div class="col">'.$name.'</div><div class="col"><a href=mailto:'.$email.'>'.$email.'</a></div></div></div><hr>';
-	
-	echo $out;	
 }
 fclose($myfile);
 ?>

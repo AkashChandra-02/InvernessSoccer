@@ -49,8 +49,7 @@
     </header>
 <!--Body-->
 <div role="main" class="container">
-<h1 style="color: #336600;">ISC FAQ</h1>
-<!--<ol style="text-align: left;">-->
+<h1>ISC FAQ</h1>
 
 <li>How do I register for soccer?</li>
 
@@ -182,37 +181,43 @@ Some friends may be separated to make the teams more balanced.</dd>
 </ol>
 
 <br><br>
+<div class="container">
 <h1>Field Locations</h1>
+<div class="row">
+ 
+<?php
 
-<h3>Pre K - K</h3>
-<p style="color:#336600;">Holy Family Church is located at 2515 W Palatine Rd, Inverness.  The soccer field is located at the northwest side of the lot.</p>
-<a href="https://www.google.com/maps/place/2515+W+Palatine+Rd,+Inverness,+IL+60067/@42.1084739,-88.1078247,17z
-/data=!3m1!4b1!4m5!3m4!1s0x880fa68c3dd67b8b:0x58999abfc07e39f8!8m2!3d42.1084699!4d-88.105636">
-<img class="img-fluid" src="img/PreK-K.png" style="width:250px;height:200px;"><br><br></a>
+function isBlank($string) {
+  return $string == "" || $string == " " || $string == "  ";
+}
 
-<h3>Grade 1</h3>
-<p style="color:#336600;">Maggie Rogers is located at the corner of Ela and Bradwell.</p>
-<a href="https://www.google.com/maps/place/Maggie+Rogers+Park/@42.1182036,-88.0982231,17z
-/data=!4m5!3m4!1s0x880fa698e4713cb1:0x58ec30563b4f5c75!8m2!3d42.1183778!4d-88.0964872">
-<img class="img-fluid" src="img/g1.png" style="width:250px;height:200px;"><br><br></a>
+$myfile = fopen("txt/FAQ.txt", "r") or die("Unable to open file!");
+$x = 1;	
+while(!feof($myfile)) {
+	$grade = "";
+	$location = "";
+	
+	$grade =  fgets($myfile);
+	$location =  fgets($myfile);
+		
+	$out = '<div class="col">'.$grade.'<br>'.$location.'</div>';
+	
+	if(!(isBlank($grade)) && !(isBlank($location)))
+	{
+		$x = $x + 1;		
+		echo $out;
+		if($x == 3 && !(feof($myfile)))
+		{
+			echo '<div class="w-100"><hr></div>';
+			$x=1;
+		}
+	}
+	
+}
+echo '<div class="w-100"><hr></div></div>';
+fclose($myfile);
+?>
 
-<h3>Grade 2/3</h3>
-<p style="color:#336600;">North Park is located at 300 North Highland, Inverness.</p>
-<a href="https://www.google.com/maps/place/300+N+Highland+Rd,+Inverness,+IL+60067/@42.1151836,-88.0943638,17z
-/data=!3m1!4b1!4m5!3m4!1s0x880fa69db14ac285:0x7ec4044b84c8c1cb!8m2!3d42.1151796!4d-88.0921751">
-<img  class="img-fluid" src="img/g2-3.png" style="width:250px;height:200px;"><br><br></a>
-
-<h3>Grade 4/5</h3>
-<p style="color:#336600;">South Park is located at 651 Thompsons Cir, Inverness.</p>
-<a href="https://www.google.com/maps/place/651+S+Thompson's+Cir,+Inverness,+IL+60067/@42.0934866,-88.0929142,17z
-/data=!3m1!4b1!4m5!3m4!1s0x880fa6786d8ad47b:0x1c4117dfead0070c!8m2!3d42.0934826!4d-88.0907255">
-<img class="img-fluid" src="img/g4-5.png" style="width:250px;height:200px;"><br><br></a>
-
-<h3>Grade 6/7/8</h3>
-<p style="color:#336600;">Marion Jordan School is located at 100 N Harrison, Palatine.</p>
-<a href="https://www.google.com/maps/place/100+N+Harrison+Ave,+Palatine,+IL+60067/@42.1113186,-88.0760246,17z
-/data=!3m1!4b1!4m5!3m4!1s0x880fa43764cc67eb:0x576e221eaf66fa3f!8m2!3d42.1113146!4d-88.0738359">
-<img class="img-fluid" src="img/g6-7-8.png" style="width:250px;height:200px;"><br><br></a>
 
 </div>
 </body>
