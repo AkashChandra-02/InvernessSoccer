@@ -51,18 +51,48 @@
 <div role="main" class="container">
 <h1>Executive Board</h1>
 <?php
-$myfile = fopen("txt/board.txt", "r") or die("Unable to open file!");
-// Output one character until end-of-file
+$myfile = fopen("txt/ExecutiveBoard.txt", "r") or die("Unable to open file!");
+
 while(!feof($myfile)) {
-	$line =  fgets($myfile);
-	//https://www.php.net/manual/en/function.stripos.php
-	if(strpos($line,"@") != 0){
-		$out = ' email: <a href=mailto:'. $line.'>'.$line."</a><br><br>";
-		echo $out;
+	$position =  fgets($myfile);
+	
+	if(!feof($myfile))
+	{
+		$name =  fgets($myfile);
 	}
-	else{
-		echo $line;
+	
+	if(!feof($myfile))
+	{
+		$email =  fgets($myfile);
 	}
+	
+	$out = '<div class="container"><div class="row"><div class="col">'.$position.'</div><div class="col">'.$name.'</div><div class="col"><a href=mailto:'.$email.'>'.$email.'</a></div></div></div><hr>';
+	
+	echo $out;
+}
+fclose($myfile);
+?>
+
+<h1>Commissioners</h1>
+<?php
+$myfile = fopen("txt/Commissioners.txt", "r") or die("Unable to open file!");
+
+while(!feof($myfile)) {
+	$position =  fgets($myfile);
+	
+	if(!feof($myfile))
+	{
+		$name =  fgets($myfile);
+	}
+	
+	if(!feof($myfile))
+	{
+		$email =  fgets($myfile);
+	}
+	
+	$out = '<div class="container"><div class="row"><div class="col">'.$position.'</div><div class="col">'.$name.'</div><div class="col"><a href=mailto:'.$email.'>'.$email.'</a></div></div></div><hr>';
+	
+	echo $out;	
 }
 fclose($myfile);
 ?>
