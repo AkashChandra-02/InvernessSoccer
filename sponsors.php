@@ -63,20 +63,52 @@ function isBlank($string) {
 
 $myfile = fopen("txt/sponsors.txt", "r") or die("Unable to open file!");
 $x = 1;	
+$blank = strtolower("na");
+
 while(!feof($myfile)) {
 	$companyName =  "";
 	$logo =  "";
-	$email =  "";
+	$link =  "";
 	$phoneNumber = "";
 	
 	$companyName =  fgets($myfile);
 	$logo =  fgets($myfile);
-	$email =  fgets($myfile);
+	$link =  fgets($myfile);
 	$phoneNumber =  fgets($myfile);
 	
-	$out = '<div class="col">'.$companyName.'<br><img src="'.$logo.'" alt="'.$companyName.' logo"  width="250" height="200"><br><a href="mailto:'.$email.'">'.$email.'</a><br>'.$phoneNumber.'<br>'.'</div>';
+	$out = '<div class="col">';
 	
-	if(!(isBlank($companyName)) && !(isBlank($logo)) && !(isBlank($email)) && !(isBlank($phoneNumber)))
+	if(!(strcmp($companyName, $blank) == 2) && strlen($companyName) > 3 && !(isBlank($companyName)))
+	{
+		$out = $out.$companyName.'<br>';
+	}
+	
+	if(!(strcmp($logo, $blank) == 2) && strlen($logo) > 3 && !(isBlank($logo)))
+	{
+		$out = $out.'<img src="'.$logo.'" width="300" height="200"><br>';
+	}
+		
+	if(!(strcmp($link, $blank) == 2) && strlen($link) > 3 && !(isBlank($link)))
+	{
+		if(strpos($link, '@') !== FALSE)
+		{
+			$out = $out.'<a href="mailto:'.$link.'">'.$link.'</a><br>';
+		}
+		
+		else
+		{
+			$out = $out.'<a href="'.$link.'">'.$link.'</a><br>';
+		}	
+	}
+	
+	if(!(strcmp($phoneNumber, $blank) == 0) && strlen($phoneNumber) > 2 && !(isBlank($phoneNumber)))
+	{
+		$out = $out.$phoneNumber.'<br>';	
+	}
+		
+	$out = $out.'</div>';
+	
+	if(!(isBlank($companyName)) && !(isBlank($logo)) && !(isBlank($link)) && !(isBlank($phoneNumber)))
 	{
 		$x = $x + 1;		
 		echo $out;
