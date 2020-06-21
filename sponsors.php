@@ -63,7 +63,7 @@ function isBlank($string) {
 
 $myfile = fopen("txt/sponsors.txt", "r") or die("Unable to open file!");
 $x = 1;	
-$blank = strtolower("na");
+$blank = 'null';
 
 while(!feof($myfile)) {
 	$companyName =  "";
@@ -78,17 +78,17 @@ while(!feof($myfile)) {
 	
 	$out = '<div class="col">';
 	
-	if(!(strcmp($companyName, $blank) == 2) && strlen($companyName) > 3 && !(isBlank($companyName)))
+	if(strcmp($companyName, $blank) === -1 && strlen($companyName) > 3 && !(isBlank($companyName)))
 	{
 		$out = $out.$companyName.'<br>';
 	}
 	
-	if(!(strcmp($logo, $blank) == 2) && strlen($logo) > 3 && !(isBlank($logo)))
+	if(strcmp($logo, $blank) === -1 && strlen($logo) > 3 && !(isBlank($logo)))
 	{
 		$out = $out.'<img src="'.$logo.'" width="300" height="200"><br>';
 	}
-		
-	if(!(strcmp($link, $blank) == 2) && strlen($link) > 3 && !(isBlank($link)))
+	
+	if(strcmp($link, $blank) !== 2 && strlen($link) > 3 && !(isBlank($link)))
 	{
 		if(strpos($link, '@') !== FALSE)
 		{
@@ -101,7 +101,7 @@ while(!feof($myfile)) {
 		}	
 	}
 	
-	if(!(strcmp($phoneNumber, $blank) == 0) && strlen($phoneNumber) > 2 && !(isBlank($phoneNumber)))
+	if(strcmp($phoneNumber, $blank) !== 2 && strlen($phoneNumber) > 2 && !(isBlank($phoneNumber)))
 	{
 		$out = $out.$phoneNumber.'<br>';	
 	}

@@ -1,5 +1,5 @@
 Northwest Pulmonary and Sleep medicine
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/NorthwestPulmonary_logo1.jpg
+/img/NorthwestPulmonary_logo1.jpg
 https://www.pulmonarysleep.com/
 815-477-7350
 Derick Dermatology
@@ -7,86 +7,86 @@ Derick Dermatology
 https://derickdermatology.com/
 (847) 381-8899
 Strategic Mobility Group
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/SMG3LogoFINAL_resized1.jpg
+/img/SMG3LogoFINAL_resized1.jpg
 https://strategicmobility.com
 (847) 995-1010
 Mathnasium
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/mathnasium_logo_large.jpg
+/img/mathnasium_logo_large.jpg
 https://mathnasium.com/palatine
 (847) 496-4373
 Pro Plumbing Services inc.
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/Pro_plumbing_services.jpg
+/img/Pro_plumbing_services.jpg
 Proplumbingservicesinc@gmail.com
 (773) 858-2635
 Childrens Medical Home
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/Childrens_medical_group.jpg
-www.childrensmedicalhome.com
+/img/Childrens_medical_group.jpg
+https://www.childrensmedicalhome.com
 (847) 658-6065
 Donkey Inn
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/DonkeyInnLOGO6.jpg
-na
+/img/DonkeyInnLOGO6.jpg
+null
 (847) 359-5451
-Schnells Circle
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/Schnells-circle--FINAL.jpg
-na
-na
+Schnells Brahaus
+/img/Schnells-circle--FINAL.jpg
+null
+null
 J & A Auto Body inc.
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/J_A_auto_body.jpg
+/img/J_A_auto_body.jpg
 jandaauto@gmail.com
 (773) 622-6563
 Cornerstone Bank
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/cornerstonelogo8-20-08n2n.jpg
+/img/cornerstonelogo8-20-08n2n.jpg
 https://www.cornerstonenb.com/
 (847) 654-3000
 Orthopaedic Surgery Specialists
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/orthopaedic-surgery-spl-logo2.jpg
+/img/orthopaedic-surgery-spl-logo2.jpg
 https://www.orthopaedicsurgeryspecialists.com/
 (847) 824-3198
 Trivedi & Khan LLP
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/Trivedi-and-Khan-Logo-Final2.jpg
+/img/Trivedi-and-Khan-Logo-Final2.jpg
 kashyap@trivedikhan.com
 (224) 353-6346
 Kedra Chalen Design
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/BCC_kendra_chalen_design_FINAL.jpg
+/img/BCC_kendra_chalen_design_FINAL.jpg
 Kedrapai@gmail.com
 847-903-8011
-na
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/BCC_MatusConcrete.jpg
-na
-na
+null
+/img/BCC_MatusConcrete.jpg
+null
+null
 Chamberlain Group inc.
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/chamb_logo1.jpg
+/img/chamb_logo1.jpg
 https://www.chamberlaingroup.com
-na
+null
 BCC Promotions
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/BCCBCClogo-Copy.jpg
+/img/BCCBCClogo-Copy.jpg
 richmarisie@bcclogo.com
-na
+null
 Weiss & Company LLP
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/Weiss_Logo_PMS.JPG
+/img/Weiss_Logo_PMS.JPG
 sgoluch@weisscpa.com
 (847) 441-8800
 Scout Logic
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/ScoutLogicLogo.jpg
+/img/ScoutLogicLogo.jpg
 www.scoutlogicscreening.com
 1-800-693-2709
 Des Plaines Office Equipment Company
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/DPOE_LOGOn2nn2n1.jpg
+/img/DPOE_LOGOn2nn2n1.jpg
 victor@dpoe.com
 (847) 879-6410
 Inverness Dental Care
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/Inverness_dental.jpg
+/img/Inverness_dental.jpg
 http://www.invernessdentalcare.com/
 (847) 359-6200
-na
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/BCC_GROEBNER_2018.jpg
-na
-na
+null
+/img/BCC_GROEBNER_2018.jpg
+null
+null
 Dick's Sporting Goods
-https://www.invernesssoccer.com/hometeamz/lib/hometeamz/teamdata/916/info/Dicks_logo2.jpg
+/img/Dicks_logo2.jpg
 https://dickssportinggoods.com
 (847) 550-1527
 Awards Plus
-na
+null
 http://www.awardsplustrophies.net/
 (224) 848-4397
