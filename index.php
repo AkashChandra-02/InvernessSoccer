@@ -6,12 +6,31 @@
 
 <title>Welcome to Inverness Soccer Club!</title>
 
+
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/sticky-footer-navbar.css">
 <link rel="stylesheet" type="text/css" href="css/dropdown.css">
+
+<style>
+h1, h2, h4, h3, p, a
+{
+	color: #000000;
+	/*padding-left: 15px;
+    padding-right: 15px;*/
+}
+
+hr
+{
+        height: 2px;
+        background-color: #000000;
+        border: none;
+}
+
+</style>
+
 </head>
 
-<body>
+<body style="background-image: url('/img/soccerfield.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
 <header>
 <!-- navbar -->
       <nav class="navbar  navbar-expand-md fixed-top">
@@ -53,9 +72,11 @@
 <div role="main" class="container">
 	<h2>Inverness Soccer Club Updates:</h2>
 <?php
+//https://www.php.net/manual/en/language.types.array.php
+//https://www.php.net/manual/en/language.types.object.php
 
-$start = '<hr><br><h4>';
-$end = '</h4>';
+$start = '</p><hr><br><h4>';
+$end = '</h4><p>';
 $myfile = fopen("txt/updates.txt", "r") or die("<h3>There are no updates! Please contact the commissioner for help</h3>");
 
 $line =  fgets($myfile);
@@ -73,8 +94,8 @@ while(!feof($myfile)) {
 		echo $line;
 	}
 }
-echo '<hr></div></div>';
 fclose($myfile);
+echo '</p><hr></div></div>';
 ?>
 	
 </div>
