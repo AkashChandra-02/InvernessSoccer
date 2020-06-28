@@ -107,15 +107,7 @@ Games can be rescheduled during weekly practice times and is at the discretion o
 
 <li>Where are the soccer games?</li>
 
-<dd>PreK/K play at Holy Family</dd>
-
-<dd>1st grade plays at Maggie Rogers</dd>
-
-<dd>2nd/3rd grade plays at North Park</dd>
-
-<dd>4th/5th grade plays at South Park</dd>
-
-<dd>6th/7th/8th grade plays at Marion Jordan School.</dd>
+<dd>Check below for the field locations.</dd>
 
  
 
